@@ -1,3 +1,11 @@
+# Ardublockly_v2
+
+This is a separate 'version' of Ardublockly, based closely on the work of Carlos Perate, in turn based on [Blockly][1] etc. The objective behind this version is to explore easier inclusion of specific device blocks, so that the Arduino sketches produced can interact with Arduino-connected devices.
+
+For example, the pre-existing code allows interfacing with servo motors driven directly by GPIO pin only; the first test device for this is a board based on the PCA9685 chip which supports 16 servos, with externally added power, via the I2C bus. 
+
+In addition, by keeping this 'version' separate I won't even have to think about the possibility on clobbering anything else, or elsewhere.
+
 # Ardublockly
 Ardublockly is a visual programming editor for Arduino. It is based on Google's [Blockly][1], which has been forked to generate [Arduino][15] code.
 
